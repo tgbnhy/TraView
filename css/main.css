@@ -5,11 +5,17 @@ body {
 
 div#map_container{
     margin-top: 20px;
-    width:100%;
+    width:140%;
     height:600px;
     border: 1px solid #ce4844;
 }
+.div_table{width:600px;}
+.div_column1{float:left;width:390px; height:850px; border:1px solid #729fcf; overflow-y:scroll; overflow-x:scroll;}
+.div_column2{float:left;width:1070px;}
+.div_column3{float:right;width:370px;}
 
+.row1{float:right;width:370px; height:350px; border:1px solid #729fcf; overflow-y:scroll; overflow-x:scroll;}
+.row2{margin: 10px;width:1400px; height:200px; border:1px solid #729fcf; overflow-y:scroll; overflow-x:scroll;}
 .btn-primary, .btn-primary:active {
     background-color: #d21e1e;
     border: solid 1px #ba100d;
@@ -59,7 +65,7 @@ h3 {
 }
 
 .row {
-    margin: 10px;
+    margin: 0px;
 }
 
 footer{

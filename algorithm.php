@@ -4,7 +4,7 @@ $input = isset($_POST['arr'])?$_POST['arr']:'';
 if(empty($input)){
 	exit("please input the activity and location");
 }else{
-	$command= "./sort".escapeshellarg($input);
+	$command= "./wand_search".escapeshellarg($input);
 	$return = passthru($command);
 	var_dump($return);
 }
